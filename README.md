@@ -1,2 +1,2 @@
 # OctaneSite
-The official website for Octane.
+The official website for Octane. Very WIP.
