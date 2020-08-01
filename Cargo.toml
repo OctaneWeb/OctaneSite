@@ -1,0 +1,11 @@
+[package]
+name = "octanesite"
+version = "0.1.0"
+authors = ["weegee <somilsharma627@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+octane = { git = "https://github.com/OctaneWeb/Octane", branch = "develop" }
+tokio = { version = "0.2.21", features = ["tcp", "fs", "stream", "macros", "io-util"] }

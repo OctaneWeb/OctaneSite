@@ -124,7 +124,9 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+
+# Ignore css files, build from scss source
+docs/css/*
 
 # Gatsby files
 .cache/
@@ -181,3 +183,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+#Added by cargo
+
+/target
